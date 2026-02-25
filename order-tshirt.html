@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Order Tshirt Beige</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Simple form styling */
+        .order-form {
+            max-width: 600px;
+            margin: 50px auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .order-form h2 {
+            text-align: center;
+            margin-bottom: 25px;
+        }
+
+        .order-form label {
+            display: block;
+            margin: 15px 0 5px;
+            font-weight: 600;
+        }
+
+        .order-form input,
+        .order-form select,
+        .order-form textarea {
+            width: 100%;
+            padding: 12px;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+            font-size: 16px;
+        }
+
+        .order-form button {
+            margin-top: 20px;
+            width: 100%;
+            padding: 15px;
+            background: gold;
+            border: none;
+            font-size: 18px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .order-form button:hover {
+            background: #000;
+            color: gold;
+            border: 1px solid gold;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo">
+            <a href="html2.html">
+                <img src="https://g1cc40-3b.myshopify.com/cdn/shop/files/i-want-a-website-logo-for-montana-style-based-from-tony-montana.png?height=72&v=1771606342" alt="Montana Luxe Logo">
+            </a>
+        </div>
+        <nav class="nav">
+            <a href="html2.html">Home</a>
+            <a href="#">Shop</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <section class="order-form">
+        <h2>Order Tshirt Beige – Nouvelle Collection</h2>
+
+        <form action="#" method="POST">
+            <label for="fullName">Full Name</label>
+            <input type="text" id="fullName" name="fullName" placeholder="Your Name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required>
+
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" placeholder="+213 ..." required>
+
+            <label for="address">Shipping Address</label>
+            <textarea id="address" name="address" rows="3" placeholder="Street, City, Country" required></textarea>
+
+            <label for="size">Size</label>
+            <select id="size" name="size" required>
+                <option value="">Select Size</option>
+                <option value="S">Small (S)</option>
+                <option value="M">Medium (M)</option>
+                <option value="L">Large (L)</option>
+                <option value="XL">Extra Large (XL)</option>
+            </select>
+
+            <label for="quantity">Quantity</label>
+            <input type="number" id="quantity" name="quantity" min="1" value="1" required>
+
+            <button type="submit">Place Order – 3500 DA</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>© 2026 Montana Luxe. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
